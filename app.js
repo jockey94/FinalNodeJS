@@ -75,7 +75,7 @@ app.post('/upload', upload.single('attachment'), async(req, res) => {
     res.json({ 'code': 'success'});
 });
 
-app.post('/uploads3', uploads3.single('attachment'), async(req, res) => {
+app.post('/uploadS3', uploadS3.single('attachment'), async(req, res) => {
     res.json({ 'code': 'success'});
 });
 
